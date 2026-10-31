@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GorilLab</title>
+<meta name="description" content="GorilLab — 演奏者のための実用アプリ／Practical apps for musicians">
+<style>
+:root { --bg:#F4F3EF; --key:#FFFFFF; --ink:#000000; --sub:#5C5C5C; --felt:#A3172E; --edge:#D6D4CE; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:"Hiragino Sans","Yu Gothic UI","Meiryo",system-ui,sans-serif; line-height:1.8; }
+.wrap { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+h1 { font-size:32px; margin:0; letter-spacing:.02em; }
+.lead { margin:4px 0 0; color:var(--sub); }
+.keys { height:10px; margin:24px 0 32px; background:repeating-linear-gradient(90deg,#fff 0 22px,var(--edge) 22px 23px); border-top:3px solid var(--ink); }
+h2 { font-size:19px; margin:32px 0 12px; }
+.app { display:flex; gap:16px; align-items:center; background:var(--key); border:1px solid var(--edge); border-radius:14px; padding:16px; }
+.app img { width:72px; height:72px; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,.12); flex:none; }
+.app h3 { margin:0; font-size:18px; }
+.app p { margin:2px 0 6px; color:var(--sub); font-size:14px; }
+.links a { margin-right:14px; font-size:14px; }
+a { color:var(--felt); }
+footer { margin-top:48px; font-size:13px; color:var(--sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>GorilLab</h1>
+  <p class="lead">演奏者のための実用アプリ ／ Practical apps for musicians</p>
+  <div class="keys" aria-hidden="true"></div>
+
+  <h2>アプリ ／ Apps</h2>
+  <div class="app">
+    <img src="tempodial-icon.png" alt="Tempo Dial のアイコン">
+    <div>
+      <h3>Tempo Dial</h3>
+      <p>テンポが変えやすいメトロノーム ／ Metronome (iOS)</p>
+      <div class="links">
+        <a href="https://apps.apple.com/app/id6826869427">App Store</a>
+        <a href="/tempodial/">サポート / Support</a>
+        <a href="/tempodial/privacy.html">プライバシーポリシー / Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>お問い合わせ ／ Contact</h2>
+  <p><a href="mailto:tempodial.app@gmail.com">tempodial.app@gmail.com</a></p>
+
+  <footer>© 2026 GorilLab</footer>
+</div>
+</body>
+</html>
